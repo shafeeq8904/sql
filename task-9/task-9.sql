@@ -37,3 +37,8 @@ BEGIN
 END //
 
 DELIMITER ;
+
+--call the scalar function 
+
+SELECT GetEmployeeCount('2024-01-01', '2024-12-31') AS TotalHiredEmployees;
+
